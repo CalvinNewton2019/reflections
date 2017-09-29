@@ -1,0 +1,35 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+	Seeing only the differences between the file versions prevents you from having to look through all the code.
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+	Having the file history can help you rreview an pold program by looking through the edits to see your thought process and promote your memory.
+
+What do you think are the pros and cons of manually choosing when to create a commit, like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+	pros
+	can create reasonably sized commits
+	commits wills compile
+	can comment on changes made to commit 
+
+	cons
+	will not save if program crashes
+	user error or forgetting to commit can lead to lack of revision history
+	confusing for begginer programmers
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+	For Git changes in one file often require changes to be made in multiple files. This is a single logical change but need to be made in multiple files.
+
+	For Google Drive files do not usually have much dependency for normal users and Google Drive does not need multiple files to be in a revision history.
+
+ How can you use the commands git log and git diff to view the history of files?
+	 git log shows the log of commits with information of author, date, commit id, and commit comments
+	git diff shows lines that are added or deleted 
+	this shows the changes made in the commit
+	git diff currentID previousID
+
+How might using version control make you more confident to make changes that could break something?
+
+	Making changes does not change the current version. You may even be able to fork at the commit id to save multiple changes and then add them all in.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+	I want to use Git to do version control for my javascript
